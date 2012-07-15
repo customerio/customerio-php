@@ -1,12 +1,14 @@
 <?php
 
   $session = curl_init();
-  $customerio_url = 'https://app.customer.io/api/v1/customers/';
-  $api_key = '0d2bceaf886c82c60111';
-  $site_id = '42172a79d46b6c2c3e38';
 
-  $customer_id = '1337'; // You'll want to set this dynamically
+  $customer_id = '1337';
+  $customerio_url = 'https://app.customer.io/api/v1/customers/';
+  $site_id = 'YOUR-SITE-ID';
+  $api_key = 'YOUR-API-KEY';
+
   $data = array("email" => "test@example.com", "created_at" => time());
+  // Creates or updates a user with the ID 1337, email test@example.com and a created_at timestamp
 
   curl_setopt($session, CURLOPT_URL, $customerio_url.$customer_id);
   curl_setopt($session, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
