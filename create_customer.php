@@ -2,7 +2,7 @@
 
   $session = curl_init();
 
-  $customer_id = '1337';
+  $customer_id = 'prod_1337'; // You'll want to set this dynamically to the unique id of the user
   $customerio_url = 'https://app.customer.io/api/v1/customers/';
   $site_id = 'YOUR-SITE-ID';
   $api_key = 'YOUR-API-KEY';
