@@ -15,6 +15,7 @@
   curl_setopt($session, CURLOPT_HEADER, false);
   curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($session, CURLOPT_VERBOSE, 1);
+  curl_setopt($session, CURLOPT_CUSTOMREQUEST, "POST");
   curl_setopt($session, CURLOPT_POSTFIELDS,http_build_query($data));
 
   curl_setopt($session,CURLOPT_USERPWD,$site_id . ":" . $api_key);
