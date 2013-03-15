@@ -7,7 +7,10 @@
   $site_id = 'YOUR-SITE-ID';
   $api_key = 'YOUR-API-KEY';
 
-  $data = array("name" => "purchased");
+  $name = "purchased";
+  $attributes = array('price' => 123, 'color' => 'pink');
+
+  $data = array('name' => $name, 'data' => $attributes);
   // Sends a purchased event
 
   curl_setopt($session, CURLOPT_URL, $customerio_url);
