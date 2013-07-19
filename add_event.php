@@ -2,7 +2,7 @@
 
   $session = curl_init();
   $customer_id = 'prod_1337'; // You'll want to set this dynamically to the unique id of the user associated with the event
-  $customerio_url = 'https://app.customer.io/api/v1/customers/'.$customer_id.'/events';
+  $customerio_url = 'https://track.customer.io/api/v1/customers/'.$customer_id.'/events';
   
   $site_id = 'YOUR-SITE-ID';
   $api_key = 'YOUR-API-KEY';
