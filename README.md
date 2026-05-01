@@ -8,8 +8,9 @@ This repo contained two PHP example scripts written in 2013. It was never an off
 
 For PHP integrations with Customer.io today, call the REST API directly using the HTTP client of your choice (Guzzle, Symfony HttpClient, the `curl` extension, etc.).
 
-- API reference: https://customer.io/docs/api/
-- Track API guide: https://customer.io/docs/journeys/track-api/
+- API reference: https://docs.customer.io/api/
+- Track API guide: https://docs.customer.io/integrations/api/track/
+- Pipelines (CDP) vs Track API: https://docs.customer.io/integrations/api/track-vs-cdp-api/
 
 If you need help integrating PHP, contact your Customer.io account team or reach out to support.
 
@@ -22,7 +23,7 @@ Customer.io maintains client libraries for these languages:
 - **Ruby**: https://github.com/customerio/customerio-ruby
 - **Go**: https://github.com/customerio/go-customerio
 
-Mobile SDKs (iOS, Android, React Native, Flutter, Expo) are listed at https://customer.io/docs/sdk/.
+Mobile SDKs (iOS, Android, React Native, Flutter, Expo) are also available; see the [Customer.io org on GitHub](https://github.com/customerio).
 
 ## Why the change
 
